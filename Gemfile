@@ -1,9 +1,10 @@
 # A sample Gemfile
 source "https://rubygems.org"
 
+
 gem 'sinatra'
 gem 'rake'
-gem 'thin'
+gem 'thin', git: "https://github.com/macournoyer/thin.git"
 gem 'shotgun'
 gem 'require_all'
 
